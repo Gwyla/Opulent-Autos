@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Fundo mais escuro */
+    color: #fff; /* Texto em branco */
+}
+
+header {
+    background-color: #ff0000; /* Vermelho */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff; /* Texto em branco */
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.car {
+    background-color: #333; /* Cor mais escura para os carros */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.car h2 {
+    color: #ff0000; /* Vermelho para o título do carro */
+}
+
+.car p {
+    color: #ccc; /* Texto cinza claro */
+}
+
+img {
+    width: 650px;
+}
+
+.car-photo {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.about, .team, .newsletter {
+    padding: 40px 20px;
+}
+
+.team {
+    background-color: #eee;
+}
+
+.role {
+    margin-bottom: 20px;
+}
+
+.role h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#gerente {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+
+#consultor {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+
+.newsletter {
+    background-color: #333;
+    color: #fff;
+}
+
+.newsletter form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
